@@ -118,7 +118,7 @@
         </l:BlockLayoutCell>
         <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
           id="cell10" 
-          title="Reza Pahlavi">
+          title="John Smith">
           <Text textAlign="Left" 
             text="City: Paris" 
             width="100%" />

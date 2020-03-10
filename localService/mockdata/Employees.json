@@ -155,21 +155,22 @@
 				"uri": "/here/goes/your/serviceUrl/Employees(9)/Resume"
 			}
 		}
-	},
+	}
+	,
 	{
 		"EmployeeID": 10,
-		"LastName": "Pahlavi",
-		"FirstName": "Reza",
-		"Address": "MRZSH faghid Blvd.",
-		"City": "Paris",
+		"LastName": "Smith",
+		"FirstName": "John",
+		"Address": "7 Houndstooth Rd.",
+		"City": "London",
 		"Region": null,
-		"PostalCode": "7500",
-		"Country": "France",
-		"HomePhone": "(33) 555-1368",
-		"ResumeID": 10,
+		"PostalCode": "WG2 7LT",
+		"Country": "UK",
+		"HomePhone": "(71) 555-4444",
+		"ResumeID": 9,
 		"Resume": {
 			"__deferred": {
-				"uri": "/here/goes/your/serviceUrl/Employees(10)/Resume"
+				"uri": "/here/goes/your/serviceUrl/Employees(9)/Resume"
 			}
 		}
 	}

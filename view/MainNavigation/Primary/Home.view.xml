@@ -14,21 +14,6 @@
   <Page showHeader="false">
     <l:BlockLayout background="Light" 
       id="BlockLayout">
-
-      <!-- THIS IS THE HEADER ROW WITH THE IMAGE -->
-      <l:BlockLayoutRow>
-        <l:BlockLayoutCell class="noPadding" 
-          id="cell0" 
-          title="" 
-          width="1">
-          <Image src="images/header.png" 
-            width="100%"></Image>
-          <Text class="headerText" 
-            text="Users List" 
-            width="100%" />
-        </l:BlockLayoutCell>
-      </l:BlockLayoutRow>
-
       <!-- THIS IS THE TITLE -->
       <l:BlockLayoutRow>
         <l:BlockLayoutCell title="USA"></l:BlockLayoutCell>
@@ -37,7 +22,7 @@
       <!-- THIS IS THE BLOCK LAYOUT ROW -->
       <l:BlockLayoutRow>
         <!-- FIRST BLOCK -->
-        <l:BlockLayoutCell class="blockcolor5 cursorcontrol" 
+        <l:BlockLayoutCell class=" cursorcontrol" 
           id="cell1" 
           title="Nancy Davolio">
           <Text textAlign="Left" 
@@ -46,7 +31,7 @@
         </l:BlockLayoutCell>
         <!-- SECOND BLOCK -->
         <!-- For several clickable Areas, use the respective UI5 controls -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell2" 
           title="Andrew Fuller">
           <Text textAlign="Left" 
@@ -54,7 +39,7 @@
             width="100%" />
         </l:BlockLayoutCell>
         <!-- THIRD BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell3" 
           title="Janet Leverling">
           <Text textAlign="Left" 
@@ -62,14 +47,14 @@
             width="100%" />
         </l:BlockLayoutCell>
         <!-- FOURTH BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell4" 
           title="Margaret Peacock">
           <Text textAlign="Left" 
             text="City: Redmond" 
             width="100%" />
         </l:BlockLayoutCell>
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell5" 
           title="Laura Callahan">
           <Text textAlign="Left" 
@@ -84,7 +69,7 @@
       </l:BlockLayoutRow>
 
       <l:BlockLayoutRow>
-        <l:BlockLayoutCell class="blockcolor5 cursorcontrol" 
+        <l:BlockLayoutCell class=" cursorcontrol" 
           id="cell6" 
           title="Michael Suyama">
           <Text textAlign="Left" 
@@ -93,7 +78,7 @@
         </l:BlockLayoutCell>
         <!-- SECOND BLOCK -->
         <!-- For several clickable Areas, use the respective UI5 controls -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell7" 
           title="Robert King">
           <Text textAlign="Left" 
@@ -101,7 +86,7 @@
             width="100%" />
         </l:BlockLayoutCell>
         <!-- THIRD BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell8" 
           title="Steven Buchanan">
           <Text textAlign="Left" 
@@ -109,14 +94,14 @@
             width="100%" />
         </l:BlockLayoutCell>
         <!-- FOURTH BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell9" 
           title="Anne Dodsworth">
           <Text textAlign="Left" 
             text="City: London" 
             width="100%" />
         </l:BlockLayoutCell>
-        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+        <l:BlockLayoutCell class="cursorcontrol " 
           id="cell10" 
           title="John Smith">
           <Text textAlign="Left" 

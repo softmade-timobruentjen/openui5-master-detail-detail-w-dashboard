@@ -1,0 +1,133 @@
+<core:View controllerName="UI5FioriForTools.controller.MainNavigation.Primary.Example3" height="100%" 
+    xmlns:core="sap.ui.core" 
+    xmlns:m="sap.m">
+    <m:Table id="idProductsTable" inset="false">
+        <m:headerToolbar>
+            <m:Toolbar>
+                <m:Title text="Tasks (10)" level="H2"/>
+            </m:Toolbar>
+        </m:headerToolbar>
+        <m:columns>
+            <m:Column minScreenWidth="Tablet">
+                <m:Text text="Name" />
+            </m:Column>
+            <m:Column minScreenWidth="Tablet">
+                <m:Text text="Label" />
+            </m:Column>
+            <m:Column minScreenWidth="Tablet">
+                <m:Text text="Label" />
+            </m:Column>
+            <m:Column minScreenWidth="Tablet" hAlign="Center">
+                <m:Text text="Type" />
+            </m:Column>
+            <m:Column minScreenWidth="Tablet">
+                <m:Text text="Label" />
+            </m:Column>
+            <m:Column minScreenWidth="Tablet" hAlign="Center">
+                <m:Text text="Status" />
+            </m:Column>
+        </m:columns>
+        <m:items>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 1"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Success"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 2"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Success"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 3"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Success"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 4"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Success"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 5"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Success"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 6"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="None"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 7"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Warning"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 8"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Warning"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 9"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Warning"/>
+                </m:cells>
+            </m:ColumnListItem>
+            <m:ColumnListItem>
+                <m:cells>
+                    <m:ObjectIdentifier title="Object 10"/>
+                    <m:Text text="Attribute" />
+                    <m:Text text="Attribute" />
+                    <m:Text text="Type" />
+                    <m:Text text="User" />
+                    <m:ObjectStatus text="Status" state="Warning"/>
+                </m:cells>
+            </m:ColumnListItem>
+        </m:items>
+    </m:Table>
+</core:View>

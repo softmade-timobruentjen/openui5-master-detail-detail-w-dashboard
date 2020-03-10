@@ -1,0 +1,46 @@
+<view xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="UI5FioriForTools.controller.MainNavigation.Secondary.ProductsList_SpS">
+	<Table id="table" updateFinished="onUpdateFinished" items="{path:'/Products'}">
+		<headerToolbar>
+			<Toolbar>
+				<Title id="title" />
+				<ToolbarSpacer />
+				<Button icon="sap-icon://action-settings" press="onPersoButtonPressed">
+				</Button>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column id="C1">
+				<Text text="Name" />
+			</Column>
+			<Column id="C2">
+				<Text text="ID" />
+			</Column>
+			<Column id="C3">
+				<Text text="Units in Stock" />
+			</Column>
+			<Column id="C4">
+				<Text text="Units on Order" />
+			</Column>
+			<Column id="C5">
+				<Text text="Unit Price" />
+			</Column>
+			<Column id="C6">
+				<Text text="Supplier ID" />
+			</Column>
+			<Column id="C7">
+				<Text text="Discontiniued" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Navigation" press="onPress">
+				<Text text="{ProductName}" />
+				<Text text="{ProductID}" />
+				<Text text="{UnitsInStock}" />
+				<Text text="{UnitsOnOrder}" />
+				<Text text="{UnitPrice}" />
+				<Text text="{SupplierID}" />
+				<Text text="{Discontinued}" />
+			</ColumnListItem>
+		</items>
+	</Table>
+</view>

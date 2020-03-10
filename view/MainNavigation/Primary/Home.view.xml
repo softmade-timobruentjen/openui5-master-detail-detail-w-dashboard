@@ -1,0 +1,130 @@
+<mvc:View height="100%" 
+  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" 
+  xmlns:core="sap.ui.core" 
+  xmlns:form="sap.ui.layout.form" 
+  xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:tnt="sap.tnt" 
+  xmlns:u="sap.ui.unified" 
+  xmlns="sap.m" 
+  controllerName="UI5FioriForTools.controller.MainNavigation.Primary.Home">
+
+  <!-- BLOCK LAYOUT BEGINS HERE -->
+  <Page showHeader="false">
+    <l:BlockLayout background="Light" 
+      id="BlockLayout">
+
+      <!-- THIS IS THE HEADER ROW WITH THE IMAGE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell class="noPadding" 
+          id="cell0" 
+          title="" 
+          width="1">
+          <Image src="images/header.png" 
+            width="100%"></Image>
+          <Text class="headerText" 
+            text="Users List" 
+            width="100%" />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+
+      <!-- THIS IS THE TITLE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell title="USA"></l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+
+      <!-- THIS IS THE BLOCK LAYOUT ROW -->
+      <l:BlockLayoutRow>
+        <!-- FIRST BLOCK -->
+        <l:BlockLayoutCell class="blockcolor5 cursorcontrol" 
+          id="cell1" 
+          title="Nancy Davolio">
+          <Text textAlign="Left" 
+            text="City: Seattle" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- SECOND BLOCK -->
+        <!-- For several clickable Areas, use the respective UI5 controls -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell2" 
+          title="Andrew Fuller">
+          <Text textAlign="Left" 
+            text="City: Tacoma" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- THIRD BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell3" 
+          title="Janet Leverling">
+          <Text textAlign="Left" 
+            text="City: Kirkland" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- FOURTH BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell4" 
+          title="Margaret Peacock">
+          <Text textAlign="Left" 
+            text="City: Redmond" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell5" 
+          title="Laura Callahan">
+          <Text textAlign="Left" 
+            text="City: Seattle" 
+            width="100%" />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+
+      <!-- THIS IS THE TITLE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell title="Europa"></l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell class="blockcolor5 cursorcontrol" 
+          id="cell6" 
+          title="Michael Suyama">
+          <Text textAlign="Left" 
+            text="City: London" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- SECOND BLOCK -->
+        <!-- For several clickable Areas, use the respective UI5 controls -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell7" 
+          title="Robert King">
+          <Text textAlign="Left" 
+            text="City: London" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- THIRD BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell8" 
+          title="Steven Buchanan">
+          <Text textAlign="Left" 
+            text="City: London" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <!-- FOURTH BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell9" 
+          title="Anne Dodsworth">
+          <Text textAlign="Left" 
+            text="City: London" 
+            width="100%" />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" 
+          id="cell10" 
+          title="Reza Pahlavi">
+          <Text textAlign="Left" 
+            text="City: Paris" 
+            width="100%" />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+
+    </l:BlockLayout>
+  </Page>
+</mvc:View>

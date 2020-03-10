@@ -1,0 +1,45 @@
+<View controllerName="UI5FioriForTools.controller.MainNavigation.Primary.Example2" height="100%" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m">
+	<Page class="sapUiContentPadding" title="List Report Floorplan (Table)">
+		<content>
+			<Table id="table" updateFinished="onUpdateFinished" items="{path:'/Employees'}">
+				<headerToolbar>
+					<Toolbar>
+						<Title id="title" />
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<Text text="Name" />
+					</Column>
+					<Column>
+						<Text text="ID" />
+					</Column>
+					<Column>
+						<Text text="City" />
+					</Column>
+					<Column>
+						<Text text="Postal Code" />
+					</Column>
+					<Column>
+						<Text text="Country" />
+					</Column>
+					<Column>
+						<Text text="Phone" />
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem type="Navigation" press="onPress">
+						<Text text="{FirstName} {LastName}" />
+						<Text text="{EmployeeID}" />
+						<Text text="{City}" />
+						<Text text="{PostalCode}" />
+						<Text text="{Country}" />
+						<Text text="{HomePhone}" />
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</View>

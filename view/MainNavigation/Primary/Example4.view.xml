@@ -1,0 +1,19 @@
+<View height="100%" controllerName="UI5FioriForTools.controller.MainNavigation.Primary.Example4" 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <Page class="sapUiContentPadding" title="List Report Floorplan (List)">
+        <content>
+            <List id="list" updateFinished="onUpdateFinished" items="{path:'/Employees'}">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title id="title" />
+                    </Toolbar>
+                </headerToolbar>
+                <items>
+                    <StandardListItem title="{FirstName} {LastName}" iconDensityAware="false" iconInset="false" type="Navigation" press="onPress"/>
+                </items>
+            </List>
+        </content>
+    </Page>
+</View>

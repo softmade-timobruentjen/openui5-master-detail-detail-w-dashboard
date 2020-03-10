@@ -1,0 +1,29 @@
+<mvc:View controllerName="UI5FioriForTools.controller.MainNavigation.Primary.Example1" 
+  xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" height="100%" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.m">
+  <SplitApp id="SplitApp" initialDetail="detailPage1" initialMaster="master2" orientationChange="onOrientationChange">
+    <detailPages>
+      <Page id="detailPage1" class="sapUiStdPage" title="Employee Profile" showHeader="false" showNavButton="false">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.Secondary.Employee_SpS"/>
+        </content>
+      </Page>
+    </detailPages>
+    <masterPages>
+      <Page class="sapUiStdPage" icon="sap-icon://action" id="master2" navButtonPress="onPressMasterBack" showHeader="true" showNavButton="false" title="Local Administrators">
+        <content>
+          <List id="oList" mode="SingleSelectMaster" updateFinished="onUpdateFinished" selectionChange="onPress" items="{path:'/Employees'}">
+            <items>
+              <ObjectListItem custom:to="detailPage1" number="{EmployeeID}" numberUnit="ID" title="{FirstName} {LastName}" type="Active" selected="true">
+                <attributes>
+                  <ObjectAttribute text="{Country}"/>
+                </attributes>
+              </ObjectListItem>
+            </items>
+          </List>
+        </content>
+      </Page>
+    </masterPages>
+  </SplitApp>
+</mvc:View>

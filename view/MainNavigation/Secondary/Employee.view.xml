@@ -1,0 +1,50 @@
+<core:View xmlns:l="sap.ui.layout" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:core="sap.ui.core" 
+	xmlns="sap.uxap" 
+	xmlns:layout="sap.ui.layout" 
+	xmlns:m="sap.m" 
+	xmlns:table="sap.m.table" 
+	xmlns:comp="sap.ui.comp.variants" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:sample="sap.uxap.sample.ObjectPageOnJSON" 
+	xmlns:goals="sap.uxap.sample.SharedBlocks.goals" 
+	xmlns:personal="sap.uxap.sample.SharedBlocks.personal" 
+	xmlns:employment="sap.uxap.sample.SharedBlocks.employment" controllerName="UI5FioriForTools.controller.MainNavigation.Secondary.Employee" height="100%">
+	<ObjectPageLayout id="ObjectPageLayout" alwaysShowContentHeader="true" showTitleInHeaderContent="true" showHeaderContent="true">
+		<headerTitle>
+			<ObjectPageHeader id="headerForTest" headerDesign="Light" objectTitle="{FirstName} {LastName}" objectImageShape="Circle" objectImageURI="{ImageURI}" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="true" showPlaceholder="true">
+				<navigationBar>
+					<m:Bar>
+						<m:contentLeft>
+							<m:Button icon="sap-icon://nav-back" tooltip="Back" press="onNavBack"></m:Button>
+						</m:contentLeft>
+						<m:contentMiddle>
+							<m:Text text="Employee Profile"/>
+						</m:contentMiddle>
+					</m:Bar>
+				</navigationBar>
+			</ObjectPageHeader>
+		</headerTitle>
+		<headerContent>
+			<layout:VerticalLayout>
+				<m:ObjectStatus title="Employee ID" text="{EmployeeID}"/>
+				<m:ObjectStatus title="Home Phone" text="{HomePhone}"/>
+			</layout:VerticalLayout>
+		</headerContent>
+		<sections>
+			<ObjectPageSection showTitle="false">
+				<subSections>
+					<ObjectPageSubSection id="Section1a-1" mode="Expanded" title="Products">
+						<blocks>
+							<ObjectPageLazyLoader stashed="true">
+								<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.Secondary.ProductsList"/>
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+	</ObjectPageLayout>
+</core:View>
+

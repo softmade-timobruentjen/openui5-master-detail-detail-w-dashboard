@@ -1,0 +1,65 @@
+[
+    {
+        "ObjectID": 1,
+        "Name": "Assign Responsibilities",
+        "ID": "A00001",
+        "Sequence": "INIT01",
+        "Type": "User Service Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Completed"
+    },
+    {
+        "ObjectID": 2,
+        "Name": "Parameterization",
+        "ID": "A00002",
+        "Sequence": "INIT02",
+        "Type": "User Service Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Completed"
+    },
+    {
+        "ObjectID": 3,
+        "Name": "Deploy SuccessFactors Credentials",
+        "ID": "A00003",
+        "Sequence": "INIT01",
+        "Type": "User Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Completed"
+    },
+    {
+        "ObjectID": 4,
+        "Name": "Copy Cost Center Integration Flow",
+        "ID": "A00004",
+        "Sequence": "INIT01",
+        "Type": "User Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "   Completed"
+    },
+    {
+        "ObjectID": 5,
+        "Name": "Configure Integration Flow",
+        "ID": "A00005",
+        "Sequence": "000005",
+        "Type": "User Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Completed"
+    },
+    {
+        "ObjectID": 6,
+        "Name": "Create Trusted Connection",
+        "ID": "A00006",
+        "Sequence": "000006",
+        "Type": "User Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Ready"
+    },
+    {
+        "ObjectID": 7,
+        "Name": "Summary",
+        "ID": "A00007",
+        "Sequence": "000007",
+        "Type": "User Service Task",
+        "Assignedto": "Reza Pahlavi",
+        "Status": "Yet to be executed"
+    }
+]

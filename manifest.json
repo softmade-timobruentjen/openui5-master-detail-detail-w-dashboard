@@ -84,29 +84,53 @@
                     "pattern": "example6",
                     "name": "example6",
                     "target": "example6"
+                },
+                {
+                    "pattern": "employee/{employeeId}",
+                    "name": "employee",
+                    "target": "employee"
+                },
+                {
+                    "pattern": "employee_SpS/{employeeId}",
+                    "name": "employee_SpS",
+                    "target": "employee_SpS"
+                },
+                {
+                    "pattern": "product/{productId}",
+                    "name": "product",
+                    "target": "product"
                 }
             ],
             "targets": {
                 "home": {
-                    "viewName": "MainNavigation.Home"
+                    "viewName": "MainNavigation.Primary.Home"
                 },
                 "example1": {
-                    "viewName": "MainNavigation.Example1"
+                    "viewName": "MainNavigation.Primary.Example1"
                 },
                 "example2": {
-                    "viewName": "MainNavigation.Example2"
+                    "viewName": "MainNavigation.Primary.Example2"
                 },
                 "example3": {
-                    "viewName": "MainNavigation.Example3"
+                    "viewName": "MainNavigation.Primary.Example3"
                 },
                 "example4": {
-                    "viewName": "MainNavigation.Example4"
+                    "viewName": "MainNavigation.Primary.Example4"
                 },
                 "example5": {
                     "viewName": "FixedNavigation.Example5"
                 },
                 "example6": {
                     "viewName": "FixedNavigation.Example6"
+                },
+                "employee": {
+                    "viewName": "MainNavigation.Secondary.Employee"
+                },
+                "employee_SpS": {
+                    "viewName": "MainNavigation.Secondary.Employee_SpS"
+                },
+                "product": {
+                    "viewName": "MainNavigation.Secondary.Product"
                 }
             }
         }

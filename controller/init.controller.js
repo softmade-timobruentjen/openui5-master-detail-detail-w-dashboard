@@ -15,19 +15,19 @@ sap.ui.define([
         icon: 'sap-icon://home',
         key: 'home'
       }, {
-        title: 'Example 1',
+        title: 'Split App',
         icon: 'sap-icon://grid',
         key: 'example1'
       }, {
-        title: 'Example 2',
+        title: 'Column List Items',
         icon: 'sap-icon://grid',
         key: 'example2'
       }, {
-        title: 'Example 3',
+        title: 'Object List Items',
         icon: 'sap-icon://grid',
         key: 'example3'
       }, {
-        title: 'Example 4',
+        title: 'Standard List Items',
         icon: 'sap-icon://grid',
         key: 'example4'
       }], fixedNavigation: [{

@@ -1,7 +1,8 @@
-# Empty UI5 prototype for tools
-Prototype with tool header and side navigation, including four navigable main-navigation items.
+# Navigable prototype with various floorplans for master-detail navigation
 
 ## Fiori Design Guidelines
 * [Tool Development Overview](https://experience.sap.com/fiori-design-web/overview/)
-* [Tool header](https://experience.sap.com/fiori-design-web/tool-header)
 * [Side navigation](https://experience.sap.com/fiori-design-web/side-navigation)
+* [Split-Screen Layout – Master List](https://ux.wdf.sap.corp/fiori-design-web/master-list)
+* [Worklist Floorplan](https://ux.wdf.sap.corp/fiori-design-web/work-list)
+* [List Report Floorplan](https://ux.wdf.sap.corp/fiori-design-web/list-report-floorplan-sap-fiori-element)
